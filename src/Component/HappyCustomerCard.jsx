@@ -1,8 +1,8 @@
 import React from 'react';
 
-const HappyCustomerCard = ({c}) => {
+const HappyCustomerCard = ({ c }) => {
     return (
-        <div className="card bg-base-100 shadow-xl py-5">
+        <div className="card bg-base-100 shadow-xl py-5" data-aos="zoom-out-left">
             <figure>
                 <img className='w-[130px] h-[130px] rounded-full' src={c.image} alt={c.name} />
             </figure>

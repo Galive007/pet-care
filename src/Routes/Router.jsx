@@ -9,6 +9,7 @@ import AuthLayout from "../Layout/AuthLayout";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import PrivateRoute from "../Provider/PrivateRoute";
+import ErrorPage from "../Component/ErrorPage";
 
 export const Router = createBrowserRouter([
     {
@@ -23,7 +24,7 @@ export const Router = createBrowserRouter([
                         fetch('/petCareServices.json'),
                         fetch('/winterTips.json'),
                         fetch('/vets.json'),
-                        fetch('HappyCustomer.json')
+                        fetch('/HappyCustomer.json')
                     ]);
 
                     const [services, tips, vets, happyCustomer] = await Promise.all([
@@ -42,6 +43,7 @@ export const Router = createBrowserRouter([
                 path: '/service',
                 Component: Services,
                 loader: () => fetch('/petCareServices.json'),
+                hydrateFallbackElement: <Loading></Loading>
             },
             {
                 path: '/profile',
@@ -76,6 +78,6 @@ export const Router = createBrowserRouter([
     },
     {
         path: '/*',
-        element: <h2>404 Errorpage</h2>
+        element: <ErrorPage></ErrorPage>
     }
 ])

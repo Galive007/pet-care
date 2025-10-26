@@ -2,7 +2,8 @@ import React from 'react';
 
 const VetCard = ({ vet }) => {
     return (
-        <div key={vet.id} className="card bg-base-100 shadow-xl">
+        <div key={vet.id} className="card bg-base-100 shadow-xl" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
             <figure>
                 <img src={vet.image} alt={vet.title} className="h-56 w-full object-cover" />
             </figure>

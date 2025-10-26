@@ -1,16 +1,63 @@
-# React + Vite
+#  Pet Care Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+**Pet Care Services** is a responsive web application designed to provide comprehensive winter care services and tips for pets. Users can browse popular services, read winter care tips, view expert veterinarians, and see customer reviews. Registered users can also update their profile information and book services.  
 
-Currently, two official plugins are available:
+This project is built using **React**, **React Router**, **Firebase Authentication**, **TailwindCSS**, and **DaisyUI**, with smooth animations powered by **AOS (Animate On Scroll)** and **Toastify**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live URL
+[https://your-live-url.com](https://petcare25.netlify.app/service)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*(Replace with actual deployed link, e.g., Vercel or Netlify URL)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+- **User Authentication**  
+  - Email/password registration and login  
+  - Google OAuth login  
+  - Password reset functionality  
+
+- **Profile Management**  
+  - Update name and profile photo  
+  - View registered email and profile info  
+
+- **Pet Care Services**  
+  - Browse winter care services for pets  
+  - View details for each service  
+  - Service ratings, price, and provider info  
+
+- **Winter Care Tips**  
+  - Informative tips for keeping pets safe and healthy in winter  
+
+- **Expert Veterinarians**  
+  - Meet our certified veterinarians with profile images and expertise  
+
+- **Customer Reviews**  
+  - Read happy customer testimonials  
+
+- **Animations & UI**  
+  - Smooth scroll animations using **AOS**  
+  - Modern, responsive design with **TailwindCSS** and **DaisyUI** 
+  - Auto scrolling Slider **Swiper**
+
+---
+
+## npm Packages Used
+- `react` – UI library  
+- `react-router-dom` – Routing  
+- `firebase` – Authentication and backend integration  
+- `react-toastify` – Toast notifications
+- `swiper` - Banner Slider   
+- `react-icons` – Icons library  
+- `aos` – Animate On Scroll for animations  
+- `daisyui` – TailwindCSS component library  
+
+---
+
+## Installation & Setup
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/cozy-tails.git

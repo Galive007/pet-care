@@ -4,19 +4,18 @@ import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStat
 
 const auth = getAuth(app);
 export const AuthContext = createContext()
-
 const googleProvider = new GoogleAuthProvider()
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null)
     const [loading, setLoading] = useState(true)
-    console.log(user);
+    // console.log(user);
 
     const createUser = (email, password) => {
         setLoading(true)
         return createUserWithEmailAndPassword(auth, email, password)
     }
     const updateUser = (updatedData) => {
-        return updateProfile(auth.currentUser, { updatedData })
+        return updateProfile(auth.currentUser, updatedData)
     }
     const loginUser = (email, password) => {
         setLoading(true)
@@ -29,7 +28,6 @@ const AuthProvider = ({ children }) => {
         return sendPasswordResetEmail(auth, email)
     }
     const logOutUser = () => {
-
         return signOut(auth)
     }
 

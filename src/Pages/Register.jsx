@@ -34,14 +34,15 @@ const Register = () => {
                         })
                         navigate('/')
                     }).catch((err) => {
-                        console.error('Profile update failed:', err.message);
+
                         toast.warning('Account created, but profile update failed.');
                         setUser(user)
                     })
 
                 form.reset()
 
-            }).catch(error => {
+            })
+            .catch(error => {
                 const errorCode = error.code;
                 toast.error('Registration Not Completed', errorCode)
                 switch (errorCode) {
@@ -83,7 +84,7 @@ const Register = () => {
     }
     return (
         <div>
-            <form onSubmit={handleRegistration} className='flex justify-center items-center py-10 md:py-23 lg:py-40'>
+            <form onSubmit={handleRegistration} className='flex justify-center items-center py-10 md:py-23 lg:py-22'>
                 <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
                     <legend className="fieldset-legend text-center text-primary text-xl">Registration</legend>
 
@@ -110,7 +111,7 @@ const Register = () => {
                     <div>
                         {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
                     </div>
-                    <button className="btn btn-neutral mt-4">Registration</button>
+                    <button className="btn btn-primary mt-4">Registration</button>
 
                     <p className='font-semibold'>Already Have An Account ?  <Link to='/auth/login' className='text-[#D72050] hover:underline'>Login</Link></p>
                 </fieldset>

@@ -90,13 +90,13 @@ const Login = () => {
 
     return (
         <div>
-            <div onClick={handleGoogleLogin} className='text-center pt-10 md:pt-23 lg:pt-20'>
-                <button class="btn btn-primary px-10 text-xl">
+            <div className='text-center pt-10 md:pt-23 lg:pt-25'>
+                <button onClick={handleGoogleLogin} class="btn btn-primary px-10 text-xl">
                     <FcGoogle />
                     Login with Google
                 </button>
             </div>
-            <form onSubmit={handleLogin} className='flex justify-center items-center pb-10 md:pb-23 lg:pb-38'>
+            <form onSubmit={handleLogin} className='flex justify-center items-center pb-10 md:pb-24 lg:pb-38'>
                 <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
                     <legend className="fieldset-legend text-center text-primary text-xl">Login</legend>
 
@@ -113,7 +113,7 @@ const Login = () => {
                     </div>
                     {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
                     <div onClick={handleForgetPassword}><a className="link link-hover">Forgot password?</a></div>
-                    <button className="btn btn-neutral mt-4">Login</button>
+                    <button className="btn btn-primary mt-4">Login</button>
                     <p className='font-semibold'>Dont’t Have An Account ?  <Link to='/auth/register' className='text-[#D72050] hover:underline'>Register</Link></p>
                 </fieldset>
             </form>

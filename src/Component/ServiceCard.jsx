@@ -6,7 +6,7 @@ const ServiceCard = ({ service }) => {
     // console.log(image);
 
     return (
-        <div className="card w-full bg-base-100 shadow-xl hover:shadow-2xl transition">
+        <div className="card w-full bg-base-100 shadow-xl hover:shadow-2xl transition" data-aos="flip-left">
             <figure>
                 <img
                     src={image}

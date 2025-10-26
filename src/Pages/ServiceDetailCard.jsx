@@ -17,7 +17,7 @@ const ServiceDetailCard = ({ service }) => {
         const email = form.email.value
         form.reset()
         toast.success('Book Successfully')
-        console.log({ name, email });
+        // console.log({ name, email });
 
     }
 

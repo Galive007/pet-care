@@ -4,7 +4,9 @@ import { AuthContext } from '../Provider/AuthProvider';
 import { updateProfile } from 'firebase/auth';
 import { toast } from 'react-toastify';
 import NavImg from '../assets/user.png'
-import { useLocation } from 'react-router';
+// import { useLocation } from 'react-router';
+import { getAuth } from 'firebase/auth';
+const auth = getAuth();
 
 const Profile = () => {
 
@@ -13,34 +15,56 @@ const Profile = () => {
     const [photoURL, setPhotoURL] = useState(user?.photoURL || '');
     const [isEditing, setIsEditing] = useState(false);
 
-    const location = useLocation()
-    console.log(location);
-
-
-    const handleUpdateProfile = (e) => {
+    // const location = useLocation()
+    // console.log(location);
+    const handleUpdateProfile = async (e) => {
         e.preventDefault();
 
-        updateProfile(user, {
-            displayName: name,
-            photoURL: photoURL,
-        })
-            .then(() => {
-                setUser({ ...user, displayName: name, photoURL: photoURL });
-                toast.success('Profile updated successfully!');
-                setIsEditing(false);
-            })
-            .catch((error) => {
-                console.error('Profile update error:', error);
-                toast.error('Failed to update profile. Try again.');
+        if (!auth.currentUser) {
+            toast.error('No authenticated user found.');
+            return;
+        }
+
+        try {
+            await updateProfile(auth.currentUser, {
+                displayName: name,
+                photoURL: photoURL,
             });
+
+            // Update context state with the actual Firebase user object
+            setUser({ ...auth.currentUser });
+            toast.success('Profile updated successfully!');
+            setIsEditing(false);
+        } catch (error) {
+            console.error('Profile update error:', error);
+            toast.error('Failed to update profile. Try again.');
+        }
     };
+
+    // const handleUpdateProfile = (e) => {
+    //     e.preventDefault();
+
+    //     updateProfile(user, {
+    //         displayName: name,
+    //         photoURL: photoURL,
+    //     })
+    //         .then(() => {
+    //             setUser({ ...user, displayName: name, photoURL: photoURL });
+    //             toast.success('Profile updated successfully!');
+    //             setIsEditing(false);
+    //         })
+    //         .catch((error) => {
+    //             console.error('Profile update error:', error);
+    //             toast.error('Failed to update profile. Try again.');
+    //         });
+    // };
     return (
         <MyContainer>
-            <div className="flex flex-col items-center justify-center py-12 px-4">
+            <div className="flex flex-col items-center justify-center py-10 md:py-39 px-4">
                 <div className="card w-full max-w-md bg-base-200 shadow-lg p-6 rounded-2xl">
                     <div className="flex flex-col items-center space-y-4">
                         {/* Profile Image */}
-                        <img
+                        <img key={user?.photoURL}
                             src={user?.photoURL || NavImg}
                             alt="User Avatar"
                             className="w-24 h-24 rounded-full border-4 border-primary object-cover"

@@ -15,6 +15,7 @@ import './Style.css';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import MyContainer from './MyContainer';
+import { Link } from 'react-router';
 
 const HeroSlider = () => {
     const progressCircle = useRef(null);
@@ -30,7 +31,7 @@ const HeroSlider = () => {
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{
-                        delay: 250000,
+                        delay: 2500,
                         disableOnInteraction: false,
                     }}
                     pagination={{
@@ -49,8 +50,8 @@ const HeroSlider = () => {
                                 <h1 className='text-3xl md:text-5xl lg:text-7xl font-bold text-white'>We offer special services for <br /> special pets!</h1>
                             </div>
                             <div className='right flex gap-4 items-center justify-center'>
-                                <button className='btn bg-primary border-0 text-white hover:bg-amber-500 hover:text-[#403F3F]'>OUR SERVICES</button>
-                                <button className='btn bg-primary border-0 text-white hover:bg-amber-500 hover:text-[#403F3F]'>CONTACT US</button>
+                                <Link to='/service' className='btn bg-primary border-0 text-white hover:bg-amber-500 hover:text-[#403F3F]'>OUR SERVICES</Link>
+                                <Link to='#' className='btn bg-primary border-0 text-white hover:bg-amber-500 hover:text-[#403F3F]'>CONTACT US</Link>
 
                             </div>
 

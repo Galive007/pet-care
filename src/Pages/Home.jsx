@@ -6,12 +6,26 @@ import ServiceCard from '../Component/ServiceCard';
 import VetCard from '../Component/vetCard';
 import TipsCard from '../Component/TipsCard';
 import HappyCustomerCard from '../Component/HappyCustomerCard';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 
 
 const Home = () => {
     const { services, tips, vets, happyCustomer } = useLoaderData()
     // console.log(vets);
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // 1s animation duration
+            once: true,     // animation triggers only once
+            offset: 120,    // start animation 120px before element enters viewport
+        });
+    }, []);
+
 
     return (
         <div>
