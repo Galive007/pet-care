@@ -8,7 +8,7 @@ This project is built using **React**, **React Router**, **Firebase Authenticati
 ---
 
 ## Live URL
-[https://your-live-url.com](https://petcare25.netlify.app/service)  
+[https://your-live-url.com](https://petcare25.netlify.app)  
 
 *(Replace with actual deployed link, e.g., Vercel or Netlify URL)*
 
