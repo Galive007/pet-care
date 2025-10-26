@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Emily Carter",
+        "specialty": "Veterinary Surgeon",
+        "experience": "10 years",
+        "image": "https://i.ibb.co.com/sdPz97nF/willowpuainta-An-image-of-a-friendly-woman-in-a-white-lab-coat-355f0b5c-004f-487e-928c-56419ee611f3.jpg",
+        "description": "Dr. Emily specializes in surgical procedures and post-operative care for small animals. Her calm and compassionate approach ensures every pet feels safe and loved.",
+        "email": "emily.carter@pawcare.com"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Ryan Mitchell",
+        "specialty": "Animal Nutritionist",
+        "experience": "8 years",
+        "image": "https://i.ibb.co.com/Hfrfnx49/Dr-Mykolas-Kamaitis.jpg",
+        "description": "Dr. Ryan focuses on balanced pet nutrition and helps owners plan customized diets for their furry friends during winter months.",
+        "email": "ryan.mitchell@pawcare.com"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Sarah Lopez",
+        "specialty": "Veterinary Dermatologist",
+        "experience": "6 years",
+        "image": "https://i.ibb.co.com/DDKZssmq/Dr-Rachel-Price.jpg",
+        "description": "Dr. Sarah treats skin, fur, and allergy issues, especially common in cold, dry winter weather.",
+        "email": "sarah.lopez@pawcare.com"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Jason Miller",
+        "specialty": "General Practitioner",
+        "experience": "12 years",
+        "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80",
+        "description": "With over a decade of experience, Dr. Jason provides comprehensive pet care and wellness checkups for dogs and cats.",
+        "email": "jason.miller@pawcare.com"
+    }
+]

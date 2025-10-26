@@ -1,0 +1,86 @@
+[
+    {
+        "serviceId": 1,
+        "serviceName": "Winter Coat Fitting for Dogs",
+        "providerName": "PawCare Studio",
+        "providerEmail": "info@pawcare.com",
+        "price": 25,
+        "rating": 4.9,
+        "slotsAvailable": 4,
+        "description": "As temperatures drop, keeping your pets warm indoors becomes essential for their comfort and well-being. Pets, like humans, are sensitive to the cold, and exposure to low temperatures can lead to discomfort or even illness. Create a warm, cozy resting area for them away from cold floors, drafts, or windows. Soft blankets, heated pet beds, and insulated mats can help retain warmth and make their space inviting. If you have hardwood or tile floors, consider using rugs or pet-safe carpets to prevent them from lying directly on the cold surface. Keep your home temperature moderate and ensure their sleeping space remains consistent. For smaller or short-haired pets, provide sweaters or thermal clothing to help them maintain body heat. Avoid using direct heaters too close to them, as pets can accidentally burn themselves. Instead, opt for pet-safe heating pads or temperature-controlled beds. During power outages or extreme weather, prepare an emergency warm space with extra blankets and close the doors to retain heat. Remember, a warm environment not only provides physical comfort but also supports your pet’s immune system and keeps them happy throughout the winter season.",
+        "image": "https://i.ibb.co.com/twzpvpyr/best-dog-jackets-for-winter.jpg",
+        "category": "Clothing"
+    },
+    {
+        "serviceId": 2,
+        "serviceName": "Pet Paw Protection & Balm",
+        "providerName": "FurryFeet Clinic",
+        "providerEmail": "contact@furryfeet.com",
+        "price": 15,
+        "rating": 4.8,
+        "slotsAvailable": 6,
+        "description": "Your pet’s paws are one of the most vulnerable parts of their body during winter. Exposure to snow, ice, and road salt can cause irritation, dryness, and cracking. The salt and chemicals used to melt ice on sidewalks are particularly harsh on sensitive paw pads, often leading to redness and discomfort. Before going outside, consider applying a pet-safe paw balm or protective wax to create a barrier between their pads and the ground. Alternatively, you can invest in pet booties, which not only protect from chemicals but also provide traction on slippery surfaces. When returning from walks, wipe your pet’s paws thoroughly with a warm, damp cloth to remove salt and debris. Check between their toes for small cuts, lodged pebbles, or ice balls that may have formed. Keep their nails trimmed, as longer nails can make it harder for pets to walk safely on icy ground. Moisturize their paws regularly with a veterinarian-approved balm to prevent cracking. By maintaining proper paw care, you’ll help your furry friend enjoy winter walks comfortably while keeping their feet healthy and pain-free all season long.",
+        "image": "https://i.ibb.co.com/hJYKH6VQ/fa8cb03c9245201c16740c2316a1767870e95f06-original.jpg",
+        "category": "Grooming"
+    },
+    {
+        "serviceId": 3,
+        "serviceName": "Warm Bedding Setup",
+        "providerName": "CozyTails Hub",
+        "providerEmail": "support@cozytails.com",
+        "price": 40,
+        "rating": 4.7,
+        "slotsAvailable": 3,
+        "description": "During the chilly winter months, pets need extra warmth and comfort to stay healthy and relaxed indoors. Our Warm Bedding Setup service is specially designed to provide your furry friends with a safe, cozy, and temperature-controlled sleeping environment. We use premium heated bedding systems equipped with automatic thermal sensors that maintain an ideal warmth level without overheating. Each setup is tailored to your pet’s size, age, and breed, ensuring maximum comfort and safety. Soft, hypoallergenic materials are layered to protect sensitive skin, while the outer covers are fully washable for easy maintenance. We also include non-slip pads and moisture-resistant liners to ensure stability and cleanliness. Whether it’s a cat that loves curling up in tight spaces or a senior dog that struggles with joint pain, our bedding setup promotes better rest, improved circulation, and overall wellness. CozyTails Hub’s expert team helps you choose the right bedding style and provides installation guidance so your pets can enjoy their winter days in pure comfort. This service is perfect for households looking to combine safety, hygiene, and luxury for their pets during the cold season.",
+        "image": "https://i.ibb.co.com/KjbYLZ4n/pet-friendly-fireplaces.png",
+        "category": "Comfort"
+    },
+    {
+        "serviceId": 4,
+        "serviceName": "Winter Nutrition Consultation",
+        "providerName": "HealthyPaws Nutrition",
+        "providerEmail": "care@healthypaws.com",
+        "price": 30,
+        "rating": 5.0,
+        "slotsAvailable": 5,
+        "description": "Winter grooming is often overlooked, but it plays a critical role in your pet’s comfort and health. A clean, well-maintained coat helps regulate body temperature more effectively. Dirt, mats, and tangles can trap moisture, which may lead to skin irritation or even infections. Regular brushing removes loose fur, stimulates circulation, and distributes natural oils that keep your pet’s coat shiny and insulated. For long-haired breeds, trimming around the paws and belly prevents snow and ice buildup, which can be painful and uncomfortable. Avoid shaving your pet too short during winter, as their fur provides natural protection against the cold. Bathing should be done less frequently in colder months, as it can dry out their skin, but always use lukewarm water and a moisturizing pet shampoo when needed. After a bath, ensure your pet is completely dry before allowing them outside. If your pet shows signs of dandruff or dry skin, consider adding fish oil or omega-3 supplements to their diet after consulting your vet. A regular grooming routine keeps your pet looking great, feeling comfortable, and ready to enjoy the winter season happily.",
+        "image": "https://i.ibb.co.com/qMmjyxcw/Puppy-kitten-nutrition.jpg ",
+        "category": "Nutrition"
+    },
+    {
+        "serviceId": 5,
+        "serviceName": "Winter Grooming & De-Shedding",
+        "providerName": "FurShine Studio",
+        "providerEmail": "hello@furshine.com",
+        "price": 35,
+        "rating": 4.6,
+        "slotsAvailable": 2,
+        "description": "Frostbite is a serious risk for pets exposed to extreme cold, and it often goes unnoticed until significant damage has occurred. It typically affects areas with less fur coverage such as ears, tails, and paws. The first signs include pale, cold skin that may later become swollen or discolored. To protect your pet, limit their time outdoors during freezing weather and provide them with warm, insulated clothing if necessary. Always dry them thoroughly after coming inside, paying attention to the extremities. If you suspect frostbite, avoid rubbing or massaging the affected area, as this can worsen tissue damage. Instead, gently warm the area using a warm (not hot) towel or place your pet in a room-temperature environment. Contact your veterinarian immediately for further care. Prevention is always better than treatment, so monitor outdoor conditions and bring pets inside promptly if they show signs of shivering or lifting their paws repeatedly. Keeping an eye on your pet’s comfort and physical state ensures they stay safe throughout the winter. With proper precautions, frostbite can be avoided entirely, allowing your pets to enjoy the season without risk.",
+        "image": "https://i.ibb.co.com/60qZZwD3/Professional-de-shedding-services.jpg",
+        "category": "Grooming"
+    },
+    {
+        "serviceId": 6,
+        "serviceName": "Winter Health Checkup Package",
+        "providerName": "VetCare Plus",
+        "providerEmail": "clinic@vetcareplus.com",
+        "price": 45,
+        "rating": 5.0,
+        "slotsAvailable": 5,
+        "description": "Frostbite is a serious risk for pets exposed to extreme cold, and it often goes unnoticed until significant damage has occurred. It typically affects areas with less fur coverage such as ears, tails, and paws. The first signs include pale, cold skin that may later become swollen or discolored. To protect your pet, limit their time outdoors during freezing weather and provide them with warm, insulated clothing if necessary. Always dry them thoroughly after coming inside, paying attention to the extremities. If you suspect frostbite, avoid rubbing or massaging the affected area, as this can worsen tissue damage. Instead, gently warm the area using a warm (not hot) towel or place your pet in a room-temperature environment. Contact your veterinarian immediately for further care. Prevention is always better than treatment, so monitor outdoor conditions and bring pets inside promptly if they show signs of shivering or lifting their paws repeatedly. Keeping an eye on your pet’s comfort and physical state ensures they stay safe throughout the winter. With proper precautions, frostbite can be avoided entirely, allowing your pets to enjoy the season without risk.",
+        "image": "https://i.ibb.co.com/n8fYvF7Z/bannerdog.png",
+        "category": "Health"
+    },
+    {
+        "serviceId": 7,
+        "serviceName": "Winter Grooming & Paw Treatment",
+        "providerName": "CozyPets Grooming",
+        "providerEmail": "hello@cozypets.com",
+        "price": 30,
+        "rating": 4.8,
+        "slotsAvailable": 3,
+        "description": "Frostbite is a serious risk for pets exposed to extreme cold, and it often goes unnoticed until significant damage has occurred. It typically affects areas with less fur coverage such as ears, tails, and paws. The first signs include pale, cold skin that may later become swollen or discolored. To protect your pet, limit their time outdoors during freezing weather and provide them with warm, insulated clothing if necessary. Always dry them thoroughly after coming inside, paying attention to the extremities. If you suspect frostbite, avoid rubbing or massaging the affected area, as this can worsen tissue damage. Instead, gently warm the area using a warm (not hot) towel or place your pet in a room-temperature environment. Contact your veterinarian immediately for further care. Prevention is always better than treatment, so monitor outdoor conditions and bring pets inside promptly if they show signs of shivering or lifting their paws repeatedly. Keeping an eye on your pet’s comfort and physical state ensures they stay safe throughout the winter. With proper precautions, frostbite can be avoided entirely, allowing your pets to enjoy the season without risk.",
+        "image": "https://i.ibb.co.com/sp4xJdGQ/how-protect-your-dogs-paws-winter-540x300.jpg",
+        "category": "Grooming"
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Keep Pets Warm Indoors",
+    "description": "Limit outdoor time and ensure your pets have a warm, cozy spot away from drafts and cold floors.",
+    "image": "https://i.ibb.co.com/m50mh57m/Capture.jpg",
+    "category": "Warmth"
+  },
+  {
+    "id": 2,
+    "title": "Protect Their Paws",
+    "description": "Use pet-safe booties or paw balm to protect against snow, salt, and ice that can irritate paw pads.",
+    "image": "https://i.ibb.co.com/QvqSktg7/saint-bernard-dog-snow-paw-protection-boots-10452.webp",
+    "category": "Paw Care"
+  },
+  {
+    "id": 3,
+    "title": "Hydration Is Still Important",
+    "description": "Even in winter, pets need plenty of water. Make sure their water bowl isn’t frozen or too cold.",
+    "image": "https://i.ibb.co.com/cS3hqztY/iz-QBb9h1o-A3-VLLb-AWAue-A1dog-hydration-winter.jpg",
+    "category": "Health"
+  },
+  {
+    "id": 4,
+    "title": "Avoid Overfeeding",
+    "description": "Pets may need slightly more calories in cold weather, but don’t overfeed—watch their weight closely.",
+    "image": "https://i.ibb.co.com/BHGnRwBg/Changing-Food-Blog-Banner.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "id": 5,
+    "title": "Regular Grooming",
+    "description": "Keep your pet’s coat clean and mat-free; this helps maintain proper insulation during cold weather.",
+    "image": "https://i.ibb.co.com/5XMsQX04/winter-grooming-orewabeach-vet-clinic.jpg",
+    "category": "Grooming"
+  },
+  {
+    "id": 6,
+    "title": "Check for Frostbite",
+    "description": "Inspect ears, tails, and paws for any signs of frostbite after outdoor activities.",
+    "image": "https://i.ibb.co.com/DDzG981n/frostbite147913185.jpg",
+    "category": "Safety"
+  }
+]
